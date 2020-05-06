@@ -1,0 +1,59 @@
+/* goyang_01_pcfull.css */
+/* pcfull용 */
+
+@media screen and (min-width:1440px){
+
+#headBox { 
+	height:100px; height:6.944444vw;
+	min-height:6.25rem;
+	padding: 28px 42px; padding:1.75rem 2.625rem;
+	padding: 1.944444vw 2.916666vw;
+	box-sizing: border-box;
+}
+
+	h1{float: left;
+		width: 210px; height: 44px;
+		background-image: url(../../img/logo.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+.nav_box{float: right;}
+
+/* //headBox================================================== */
+
+#viewBox {
+	height: 1048px; height:72.777777vw;
+	min-height:65.5rem; 
+}
+	.view_area{
+		height: 900px; height:62.5vw;
+		min-height:56.25rem; 
+		background-image: url(../../img/flower.png);
+		background-repeat: no-repeat;
+		background-position: 50% 100%;
+		background-size: cover;
+		opacity: 0.5;
+	}
+
+	.sub_box{
+		height: 148px; height:10.277777vw;
+		min-height:9.25rem;
+	}
+
+/* //viewBox================================================== */
+
+#outlineBox {
+	height: 1328px; height: 92.222222vw;
+	min-height: 83rem;
+}
+/* //outlineBox================================================== */
+
+#footBox {
+	height:608px; height:41.666666vw;
+	min-height: 38rem;
+}
+
+/* //footBox================================================== */
+	
+/* @media end  */
+}

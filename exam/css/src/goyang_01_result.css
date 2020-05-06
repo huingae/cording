@@ -1,0 +1,8 @@
+/* goyang_01_result.css */
+@charset "utf-8";
+
+@import url("./goyang_01_base.css");
+@import url("./goyang_01_mob.css");
+@import url("./goyang_01_tab.css");
+@import url("./goyang_01_pc.css");
+@import url("./goyang_01_pcfull.css");
