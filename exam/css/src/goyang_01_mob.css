@@ -1,6 +1,6 @@
 /* goyang_01_mob.css */
 /* 모바일용 css */
-@media screen and (min-width:320px) and (max-width:639px){
+@media screen and (max-width:639px){
 
 #headBox { 
 	height:50px; height:15.625vw;
@@ -88,23 +88,22 @@
 /* //viewBox============================================================ */
 
 #outlineBox {
-	height: 750px; height: 234.375vw;
-	min-height: 46.875rem;
-	max-height: 1506px; max-height: 94.125rem;
+	height:auto;
 	padding: 40px 10px; padding:12.5vw 3.125vw; 
 	box-sizing: border-box;
 }
 
 	.info{
-	  height: 500px; height: 156.25vw;
+	  height: auto; 
 		background-color: ivory;
+		padding: 10px 0 10px 0; box-sizing: border-box;
 	}
 
 	.info h3 {
 		text-align: center;
 		font-weight: bold;
 		font-size: 1.375rem; font-size: 6.875vw;
-		margin-bottom:1rem;
+		margin-bottom:1rem; margin-bottom: 4.705882vw;
 	}
 
 	.flower_icon{
@@ -115,10 +114,15 @@
 		background-size: contain;
 	}
 
-	dl { width:100%; overflow:hidden; background:#ff0;}
-	dt { float:left; width:30%; background:#cc0; }
+	dl { width:100%; overflow:hidden; background:#ff0; margin-top: 1rem; margin-top: 4.705882vw; }
+	dt { float:left; width:30%; background:#cc0; font-weight: bold;}
+	dt:nth-of-type(5){height: 2.3rem;}
 	dd { float:left; width:70%; background:#dd0 }
-		
+	
+	
+	.info_img{
+		width: 100%; height: 200px; background-color: #9a3e98;
+	}
 	.ticket{
 		height: 170px; height: 53.125vw;
 		background-color: #333;  clear: both;
