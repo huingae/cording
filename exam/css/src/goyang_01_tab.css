@@ -77,7 +77,34 @@
 
 	/* //viewBox ========================================================= */
 
-	#outlineBox {
+	/* #outlineBox {
+		height:auto;
+		padding: 40px 10px; padding:6.25vw 1.5625vw; 
+		box-sizing: border-box;
+	} */
+	
+		.info{
+			height: auto; 
+			background-color: ivory;
+			/* padding: 0.625rem 4.375rem 0.625rem 4.375rem; box-sizing: border-box; */
+		}
+	
+		dl{width: 600px; height: 129px; margin:auto;}
+		.info h3 {
+			font-size:2.75rem;	
+		}
+
+		/* .flower_icon{
+			width: 46px; height: 42px;
+			margin:auto;
+			background-image: url(../../img/flower_icon.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+		} */
+
+
+
+	/* #outlineBox {
 		height: 1506px; height: 235.3125vw;
 		min-height: 94.125rem;
 		padding: 70px 10px; padding:10.937500vw 1.5625vw; 
@@ -93,7 +120,7 @@
 	.ticket{
 		height: 428px; height: 66.875000vw;
 		background-color: #333;  clear: both;
-	}
+	} */
 
 	/* //outlineBox======================================================= */
 

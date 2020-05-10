@@ -87,11 +87,7 @@
 
 /* //viewBox============================================================ */
 
-#outlineBox {
-	height:auto;
-	padding: 40px 10px; padding:12.5vw 3.125vw; 
-	box-sizing: border-box;
-}
+
 
 	.info{
 	  height: auto; 
@@ -99,30 +95,12 @@
 		padding: 10px 0 10px 0; box-sizing: border-box;
 	}
 
-	.info h3 {
-		text-align: center;
-		font-weight: bold;
-		font-size: 1.375rem; font-size: 6.875vw;
-		margin-bottom:1rem; margin-bottom: 4.705882vw;
-	}
 
-	.flower_icon{
-		width: 46px; height: 42px;
-		margin:auto;
-		background-image: url(../../img/flower_icon.png);
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
 
-	dl { width:100%; overflow:hidden; background:#ff0; margin-top: 1rem; margin-top: 4.705882vw; }
-	dt { float:left; width:30%; background:#cc0; font-weight: bold;}
-	dt:nth-of-type(5){height: 2.3rem;}
-	dd { float:left; width:70%; background:#dd0 }
+
 	
 	
-	.info_img{
-		width: 100%; height: 200px; background-color: #9a3e98;
-	}
+	
 	.ticket{
 		height: 170px; height: 53.125vw;
 		background-color: #333;  clear: both;
