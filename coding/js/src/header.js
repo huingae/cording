@@ -105,6 +105,35 @@ gnbArea.on('mouseleave', function(){
 	gnbArea.find('dd').stop().slideUp();
 });
 
+// mobile========================================
+
+var gnbBtn = $('.gnb_btn');
+var mobGnb = $('.mob_gnb');
+var hide = $('.hide');
+
+gnbBtn.on('click',function(e){
+	e.preventDefault();
+	
+	if( mobGnb.is(":visible") ){
+		mobGnb.slideUp();
+	}else{
+		mobGnb.slideDown();
+	}	
+})
+
+
+
+// gnbBtn.on('click',function(e){
+// 	e.preventDefault();
+
+// 	mobGnb.stop().slideDown();
+// })
+// gnbBtn.on('blur',function(e){
+// 	e.preventDefault();
+
+// 	mobGnb.stop().slideUp();
+// })
+
 
 
 

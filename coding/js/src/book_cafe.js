@@ -22,5 +22,10 @@
 	conLink.on('mouseleave blur',function(){
 		$(this).find(imgBox).removeClass('action');
 	})
+	//ajax--------------------------------------
 
+	var headBox = $('#headBox');
+	headBox.load('./header_pg.html');
+	var footBox = $('#footBox');
+	footBox.load('./footer_pg.html');
 })(jQuery);

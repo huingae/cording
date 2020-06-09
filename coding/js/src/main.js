@@ -18,6 +18,13 @@
 	});
 
 	var timed = 500;
+	//ajax--------------------------------------
+
+	var headBox = $('#headBox');
+	headBox.load('./header_pg.html');
+	var footBox = $('#footBox');
+	footBox.load('./footer_pg.html');
+
 	// scrollIcon-----------------------------
 	var scrollIcon = $('.scroll_icon');
 	function loopBoat(){scrollIcon.animate({bottom:'2%'},500).animate({bottom:0},500,loopBoat);}

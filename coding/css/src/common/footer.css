@@ -1,128 +1,128 @@
 /* footBox.css */
 /* footer용 css */
 
-#footBox{
-	width: 100%; width:100vw; height: auto;
-	
-	background-color: #9a3e98;
-}
-.family_site{
-	width: 100%; height: auto; max-height: 350px;
-	padding:1.25rem; padding:6.25vw; box-sizing: border-box;
-	border-bottom: 1px solid #fff;
-}
-.family_area{
-	width: 100%; height: 100%;
-}
 
-.family_area ul {
-	display: flex;
-	width: 100%; height: 100%;
-	padding: 10% 0; box-sizing: border-box;
-	justify-content: space-around;
-
-}
-
-.family_area li{
-	float: left;
-	width: auto; height:auto; 
-	color: #fff;
-	margin-right: 5%;
-	text-align: center;
-	word-break:keep-all;
-}
-
-.family_area img{
-	width: 80%;  height: 80%;
-}
-
-.family_area span{
-	display: block;
-	width: auto; height: auto;
-	font-weight: bold;
-	color: #fff;
-}
-
-.family_area li:last-child{
-	margin-right: 0;
-}
-
-.family_area a{
-	display: block;
-	width: 100%; height: 100%;
-}
-
-.footBox_area{
-	width: 100%; height: auto;
-	background-color: #9a3e98;
-}
-
-.foot_area{
-	width: 100%; height: 100%;
-	margin: auto;
-	padding: 20px; box-sizing: border-box;
-}
-
-.foot_menu{
-	width: 100%; height: auto;
-	border-bottom: 1px solid #b884b5;
-}
-
-.foot_menu ul{
-	width: 100%; height: 100%;
-	margin-bottom: 1rem;
-}
-
-.foot_menu li {
-	width: auto; height:auto;
-	font-size: 1.2rem;
-	line-height: 1.6rem;
-	color: #fff;
-}
-
-.foot_info{
-	width: 100%; height: auto;
-	padding-top:1rem; box-sizing: border-box;
-}
-
-.info_box p{
-	display: block;
-	width: auto; height: auto;
-	color: #fff;
-	padding: 1rem 0; box-sizing: border-box;
-}
-
-.f_logo{
-	width: 300px; height: 60px;
-	background-image: url('../../../img/footer/f_logo.png');
-	background-repeat: no-repeat;
-	background-position: 0 50%;
-	background-size:contain;
-	padding-top: 1rem; box-sizing: border-box;
-}
 
 /* mobile */
-@media screen and (max-width:639px){
+@media screen and (max-width:1023px){
+	#footBox{
+		width: 100%; width:100vw; height: auto;		
+		background-color: #9a3e98;
+	}
+	.family_site{
+		width: 100%; height: auto; 
+		padding:1.25rem; padding:6.25vw; box-sizing: border-box;
+		border-bottom: 1px solid #fff;
+	}
+	.family_area{
+		width: 100%; height: 100%;
+	}
+	
+	.family_area ul {
+		display: flex;
+		width: 100%; height: 100%;
+		padding: 10% 0; box-sizing: border-box;
+		justify-content: space-around;
+	
+	}
+	
+	.family_area li{
+		float: left;
+		width: auto; height:auto; 
+		color: #fff;
+		margin-right: 5%;
+		text-align: center;
+		word-break:keep-all;
+	}
+	
+	.family_area img{
+		width: 80%;  height: 80%;
+	}
+	
+	.family_area span{
+		display: block;
+		width: auto; height: auto;
+		font-weight: bold;
+		color: #fff;
+	}
+	
+	.family_area li:last-child{
+		margin-right: 0;
+	}
+	
+	.family_area a{
+		display: block;
+		width: 100%; height: 100%;
+	}
+	
+	.footBox_area{
+		width: 100%; height: auto;
+		background-color: #9a3e98;
+	}
+	
+	.foot_area{
+		width: 100%; height: 100%;
+		padding: 1.25rem; box-sizing: border-box;
+	}
+	
+	.foot_menu{
+		width: 100%; height: auto;
+		border-bottom: 1px solid #b884b5;
+	}
+	
+	.foot_menu ul{
+		width: 100%; height: 100%;
+		margin-bottom: 1rem;
+	}
+	
+	.foot_menu li {
+		width: auto; height:auto;
+		font-size: 1.2rem;
+		line-height: 1.6rem;
+		color: #fff;
+	}
+	
+	.foot_info{
+		width: 100%; height: auto;
+		padding-top:1rem; box-sizing: border-box;
+	}
+	
+	.info_box p{
+		display: block;
+		width: auto; height: auto;
+		color: #fff;
+		padding: 1rem 0; box-sizing: border-box;
+	}
+	
+	.f_logo{
+		width: 100%; max-height: 300px; height: 3.75rem;
+		background-image: url('../../../img/footer/f_logo.png');
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+		background-size:contain;
+		padding-top: 1rem; box-sizing: border-box;
+	}
 
 	}
 	
-
 
 /* tablet */
 @media screen and (min-width:640px) and (max-width:1023px){
-
-	.family_site{
-		padding:1.25rem; padding:3.125vw; box-sizing: border-box;
-
+	.f_logo{
+		float: right;
+		width: 300px; height: 60px;
+		background-image: url('../../../img/footer/f_logo.png');
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+		background-size:contain;
+		padding-top: 1rem; box-sizing: border-box;
 	}
 }
-
 /* pc */
-@media screen and (min-width:1024px) and (max-width:1439px){
+@media screen and (min-width:1024px){
 	#footBox{
 	width: 100%; height: auto;
 	margin-top: 50px;
-	padding: 0 0;
 }
 
 .family_site{
@@ -172,7 +172,7 @@
 }
 
 .footBox_area{
-	width: 100%; height: 200px;
+	width: 100%; height: auto;
 	background-color: #9a3e98;
 }
 
@@ -212,10 +212,11 @@
 
 .f_logo{
 	float: right;
-	width: 380px; height: 60px;
+	width:300px; height: 60px;
 	background-image: url('../../../img/footer/f_logo.png');
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 0 50%;
+	background-size:contain;
 }
 
 
@@ -223,4 +224,3 @@
 }
 
 /* pcfull */
-@media screen and (min-width:1440px){}

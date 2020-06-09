@@ -104,4 +104,10 @@ var galleryList = {
 		bigModal.fadeOut(400);
 	});
 
+		//ajax--------------------------------------
+
+		var headBox = $('#headBox');
+		headBox.load('./header_pg.html');
+		var footBox = $('#footBox');
+		footBox.load('./footer_pg.html');
 })(jQuery);

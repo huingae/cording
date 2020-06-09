@@ -16,6 +16,11 @@
 		contentBox.height(winH);
 	});
 
+	//ajax--------------------------------------
 
+	var headBox = $('#headBox');
+	headBox.load('./header_pg.html');
+	var footBox = $('#footBox');
+	footBox.load('./footer_pg.html');
 
 })(jQuery);
